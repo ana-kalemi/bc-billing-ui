@@ -1,0 +1,38 @@
+@import "~@bryntum/grid/grid.stockholm.css";
+// @import "~@bryntum/grid/grid.material.css";
+
+body,
+html {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Lato, "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+#app {
+    flex: 1 1 100%;
+
+    #Binvoice {
+        margin: 5px;
+    }
+}
+
+.b-grid-header.b-grid-header-parent>.b-grid-header-text {
+    height: 40px;
+}
+
+.b-grid-header-text {
+    white-space: initial;
+    // word-break: break-all;
+}
+
+.b-grid-header-text>.b-grid-header-text-content {
+    overflow: initial;
+    text-align: center;
+}
+
+.b-grid-header-children {
+    height: 110px;
+}
